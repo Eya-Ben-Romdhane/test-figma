@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Paying Builders - Steps UI (Replica)</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header>
+      <h1>Paying Builders With <span class="accent">Secure</span></h1>
+      <p class="sub">Payment Software</p>
+    </header>
+
+    <div class="main">
+      <!-- LEFT -->
+      <div class="left" aria-hidden="false">
+        <div style="display:flex;align-items:center;gap:18px;">
+          <div class="big-circle" aria-hidden="true">
+            <div class="what">
+              <h2>What Is</h2>
+              <div class="lorem">Lorem?</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="steps" role="list" aria-label="Process steps">
+          <div class="step active" data-step="1" role="listitem" tabindex="0" aria-current="step">
+            <div class="num">01</div>
+            <div class="bubble quote">Quote</div>
+          </div>
+
+          <div class="step" data-step="2" role="listitem" tabindex="0">
+            <div class="num">02</div>
+            <div class="bubble pay">Pay Fee</div>
+          </div>
+
+          <div class="step" data-step="3" role="listitem" tabindex="0">
+            <div class="num">03</div>
+            <div class="bubble complete">Complete Work</div>
+          </div>
+
+          <div class="step" data-step="4" role="listitem" tabindex="0">
+            <div class="num">04</div>
+            <div class="bubble rate">Rate</div>
+          </div>
+
+          <div class="step" data-step="5" role="listitem" tabindex="0">
+            <div class="num">05</div>
+            <div class="bubble release">Release Funds</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="right" aria-live="polite">
+        <div class="content">
+          <h3 id="content-title">Quote</h3>
+          <p id="content-desc" style="color:var(--muted); margin-top:8px;">
+            Tradesperson agrees a quote with the customer upfront and uploads the quote to the platform.
+          </p>
+
+          <ul class="bullets" id="content-list" aria-hidden="false">
+            <li><span class="bullet-mark">✶</span><span>Tradesperson agrees a quote with the customer upfront.</span></li>
+            <li><span class="bullet-mark">✶</span><span>Tradesperson uploads quote to Lorem and sends it to the customer.</span></li>
+          </ul>
+        </div>
+
+        <div class="step-index" aria-hidden="true">01</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
